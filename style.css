@@ -1,0 +1,207 @@
+*{
+    padding: o;
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+}
+img{
+    max-width: 100%;
+}
+.container{
+    margin: auto;
+    max-width: 1200px;
+}
+.hero-container{
+   
+    background-color: rgb(238, 223, 196);
+}
+.hero-container2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+   max-width: 1200px;
+   margin: auto;
+}
+.common-btn{
+    border: 10px;
+    padding: 10px 20px;
+    background-color: orange;
+    font-weight: bold;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.outline-btn{
+    border: 1px solid orange;
+    border-color:orange;
+    padding: 10px 20px;
+    background-color: white;
+    font-weight: bold;
+    color: orange;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.hero1{
+    font-weight: semibold;
+    font-size: 45px;
+    color: rgb(78, 77, 77);
+}
+.hero2{
+    font-weight: bold;
+    font-size: 65px;
+    margin-bottom: 7px;
+}
+.hero3{
+    color: rgb(78, 77, 77);
+}
+.buttons{
+    margin-top: 10px;
+    
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 0;
+  
+}
+.logo{
+    font-weight: bold;
+    font-size: 40px;
+     font-family: "Open Sans", sans-serif;
+}
+.logo-r{
+    color: orange;
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap: 15px;
+    align-items: center;
+}
+.about-parent{
+    background-color:  rgb(238, 223, 196);
+   margin: 70px auto;
+   padding: 75px;
+   border-radius: 7px;
+   text-align: center;
+}
+.about-parent p{
+    margin: 10px o;
+}
+.box{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+.what-i-do-container{
+    margin: 60px auto;
+    text-align: center;
+}
+.card-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    margin-top: 20px;
+}
+.card-container p{
+    font-size: 15px;
+    color: rgb(101, 99, 99);
+}
+.card-container h2{
+    margin: 10px;
+}
+.amazing{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.gallery{
+    display: grid;
+    margin-top: 70px;
+    gap: 12px;
+    grid-template-columns: repeat(3,1fr);
+    grid-auto-rows: 250px;
+   grid-template-areas: 
+    "one two three"
+    "four two six"
+    "four five six";
+}
+.gallery img{
+     width: 100%;
+    height: 100%;
+}
+
+.box-1{
+ grid-area: one;
+} 
+.box-2{
+ grid-area: two;
+}
+.box-3{
+ grid-area:three;
+}
+.box-4{
+ grid-area:four;
+}
+.box-5{
+ grid-area:five;
+}
+.box-6{
+ grid-area: six;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+    padding: 80px 0;
+}
+
+.footer-content,
+.footer-form{
+    flex: 1;
+}
+
+.footer h2{
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.footer p{
+    line-height: 1.8;
+    color: #555;
+    margin-bottom: 25px;
+}
+
+.social-icons{
+    display: flex;
+    gap: 15px;
+}
+
+.social-icons img{
+    width: 35px;
+    transition: transform .3s ease;
+    cursor: pointer;
+}
+
+.social-icons img:hover{
+    transform: scale(1.1);
+}
+
+.footer-form form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer-form input,
+.footer-form textarea{
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 16px;
+    outline: none;
+}
+
+.footer-form input:focus,
+.footer-form textarea:focus{
+    border-color: #FD6E0A;
+}
